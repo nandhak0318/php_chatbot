@@ -109,11 +109,11 @@ INSERT INTO `questions` (`id`, `question`, `response_id`) VALUES
 (14, 'sample', 7),
 (15, 'what topic can I ask', 8),
 (16, 'Can you fetch my fees details',9 ),
-(17, 'Fetch my fees details',9)
-(18, 'Application form',13)
-(19, 'Courses',7)
-(20, 'fees payment',9)
-(21, 'Timetable',12)
+(17, 'Fetch my fees details',9),
+(18, 'Application form',13),
+(19, 'Courses',7),
+(20, 'fees payment',9),
+(21, 'Timetable',12);
 -- --------------------------------------------------------
 
 --
@@ -142,7 +142,7 @@ INSERT INTO `responses` (`id`, `response_message`) VALUES
 (10,'<a>https://www.skasc.ac.in/index.php/courses</a>'),
 (11,'<a>https://www.skasc.ac.in/index.php/coe#hallticket</a>'),
 (12,'<a>https://www.skasc.ac.in/index.php/coe#timetable</a>'),
-(13,'<a>https://www.skasc.ac.in/index.php/coe#appform</a>')
+(13,'<a>https://www.skasc.ac.in/index.php/coe#appform</a>');
 
 -- --------------------------------------------------------
 
