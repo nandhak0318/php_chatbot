@@ -161,8 +161,8 @@ CREATE TABLE `system_info` (
 --
 
 INSERT INTO `system_info` (`id`, `meta_field`, `meta_value`) VALUES
-(1, 'name', 'Simple ChatBot Application'),
-(4, 'intro', 'Hi! I\'m John, a ChatBot of this application. How can I help you?'),
+(1, 'name', 'CampusBot'),
+(4, 'intro', 'Hi! I\'m CampusBot, a ChatBot of this application. How can I help you?'),
 (6, 'short_name', 'ChatBot'),
 (10, 'no_result', 'I am sorry. I can\'t understand your question. Please rephrase your question and make sure it is related to this site. Thank you :)'),
 (11, 'logo', 'uploads/1620181980_bot2.jpg'),
