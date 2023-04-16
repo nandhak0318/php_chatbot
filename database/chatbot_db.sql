@@ -107,8 +107,13 @@ INSERT INTO `questions` (`id`, `question`, `response_id`) VALUES
 (11, 'yow', 6),
 (12, 'good day', 6),
 (14, 'sample', 7),
-(15, 'what topic can I ask', 8);
-
+(15, 'what topic can I ask', 8),
+(16, 'Can you fetch my fees details',9 ),
+(17, 'Fetch my fees details',9)
+(18, 'Application form',13)
+(19, 'Courses',7)
+(20, 'fees payment',9)
+(21, 'Timetable',12)
 -- --------------------------------------------------------
 
 --
@@ -125,14 +130,19 @@ CREATE TABLE `responses` (
 --
 
 INSERT INTO `responses` (`id`, `response_message`) VALUES
-(1, 'I am John, the chatBot of this application.'),
+(1, 'I am CampusBot, the chatBot of this application.'),
 (2, 'I am in charge to answer your questions.'),
 (3, 'You can ask me about something related to this website.'),
 (4, 'PHP (recursive acronym for PHP: Hypertext Preprocessor ) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.'),
 (5, 'A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent.'),
 (6, 'Hi there, how can I help you ? :)'),
-(7, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue, lectus non tincidunt viverra, lacus erat venenatis mauris, sed hendrerit libero diam ac tellus. Integer imperdiet massa lacus, sed porta ligula efficitur at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; '),
-(8, 'You can ask me about something related to this website.');
+(7, '<a>https://www.skasc.ac.in/index.php/courses</a> '),
+(8, 'You can ask me about something related to this website.'),
+(9, '<a>https://www.skasc.ac.in/index.php/paymentlinks</a>'),
+(10,'<a>https://www.skasc.ac.in/index.php/courses</a>'),
+(11,'<a>https://www.skasc.ac.in/index.php/coe#hallticket</a>'),
+(12,'<a>https://www.skasc.ac.in/index.php/coe#timetable</a>'),
+(13,'<a>https://www.skasc.ac.in/index.php/coe#appform</a>')
 
 -- --------------------------------------------------------
 
