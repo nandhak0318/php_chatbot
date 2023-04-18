@@ -136,13 +136,13 @@ INSERT INTO `responses` (`id`, `response_message`) VALUES
 (4, 'PHP (recursive acronym for PHP: Hypertext Preprocessor ) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML.'),
 (5, 'A chatbot is a software application used to conduct an on-line chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent.'),
 (6, 'Hi there, how can I help you ? :)'),
-(7, '<a>https://www.skasc.ac.in/index.php/courses</a> '),
+(7, '<a href="https://www.skasc.ac.in/index.php/courses">https://www.skasc.ac.in/index.php/courses</a> '),
 (8, 'You can ask me about something related to this website.'),
-(9, '<a>https://www.skasc.ac.in/index.php/paymentlinks</a>'),
-(10,'<a>https://www.skasc.ac.in/index.php/courses</a>'),
-(11,'<a>https://www.skasc.ac.in/index.php/coe#hallticket</a>'),
-(12,'<a>https://www.skasc.ac.in/index.php/coe#timetable</a>'),
-(13,'<a>https://www.skasc.ac.in/index.php/coe#appform</a>');
+(9, '<a href="https://www.skasc.ac.in/index.php/paymentlinks">https://www.skasc.ac.in/index.php/paymentlinks</a>'),
+(10,'<a href="https://www.skasc.ac.in/index.php/courses">https://www.skasc.ac.in/index.php/courses</a>'),
+(11,'<a href="https://www.skasc.ac.in/index.php/coe">https://www.skasc.ac.in/index.php/coe#hallticket</a>'),
+(12,'<a href="https://www.skasc.ac.in/index.php/coe">https://www.skasc.ac.in/index.php/coe#timetable</a>'),
+(13,'<a href="https://www.skasc.ac.in/index.php/coe">https://www.skasc.ac.in/index.php/coe#appform</a>');
 
 -- --------------------------------------------------------
 
